@@ -7,110 +7,84 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-import javax.annotation.Nullable;
 
 
 public class FilmModel implements Parcelable {
 
 
     @SerializedName("Title")
-    @Nullable
     private String title;
 
     @SerializedName("Year")
-    @Nullable
     private String year;
 
     @SerializedName("Rated")
-    @Nullable
     private String rated;
 
     @SerializedName("Released")
-    @Nullable
     private String released;
 
     @SerializedName("Runtime")
-    @Nullable
     private String runtime;
 
     @SerializedName("Genre")
-    @Nullable
     private String genre;
 
     @SerializedName("Director")
-    @Nullable
     private String director;
 
     @SerializedName("Writer")
-    @Nullable
     private String writer;
 
     @SerializedName("Actors")
-    @Nullable
     private String actors;
 
     @SerializedName("Plot")
-    @Nullable
     private String plot;
 
     @SerializedName("Language")
-    @Nullable
     private String language;
 
     @SerializedName("Country")
-    @Nullable
     private String country;
 
     @SerializedName("Awards")
-    @Nullable
     private String awards;
 
     @SerializedName("Poster")
-    @Nullable
     private String poster;
 
     @SerializedName("RatingModel")
-    @Nullable
     private List<RatingModel> ratingModels;
 
     @SerializedName("Metascore")
-    @Nullable
     private String metascore;
 
     @SerializedName("imdbRating")
-    @Nullable
     private String imdbRating;
 
     @SerializedName("imdbVotes")
-    @Nullable
     private String imdbVotes;
 
     @SerializedName("imdbID")
-    @Nullable
     private String imdbID;
 
     @SerializedName("Type")
-    @Nullable
     private String type;
 
     @SerializedName("DVD")
-    @Nullable
     private String dvd;
 
     @SerializedName("BoxOffice")
-    @Nullable
     private String boxOffice;
 
     @SerializedName("Website")
-    @Nullable
     private String website;
 
     @SerializedName("Production")
-    @Nullable
     private String production;
 
     @SerializedName("Response")
-    @Nullable
     private String Response;
 
     public FilmModel() {
@@ -190,229 +164,204 @@ public class FilmModel implements Parcelable {
         }
     };
 
-    @android.support.annotation.Nullable
     public String getTitle() {
         return title;
     }
 
-    public void setTitle(@android.support.annotation.Nullable String title) {
+    public void setTitle(String title) {
         this.title = title;
     }
 
-    @android.support.annotation.Nullable
     public String getYear() {
         return year;
     }
 
-    public void setYear(@android.support.annotation.Nullable String year) {
+    public void setYear(String year) {
         this.year = year;
     }
 
-    @android.support.annotation.Nullable
     public String getRated() {
         return rated;
     }
 
-    public void setRated(@android.support.annotation.Nullable String rated) {
+    public void setRated(String rated) {
         this.rated = rated;
     }
 
-    @android.support.annotation.Nullable
     public String getReleased() {
         return released;
     }
 
-    public void setReleased(@android.support.annotation.Nullable String released) {
+    public void setReleased(String released) {
         this.released = released;
     }
 
-    @android.support.annotation.Nullable
     public String getRuntime() {
         return runtime;
     }
 
-    public void setRuntime(@android.support.annotation.Nullable String runtime) {
+    public void setRuntime(String runtime) {
         this.runtime = runtime;
     }
 
-    @android.support.annotation.Nullable
     public String getGenre() {
         return genre;
     }
 
-    public void setGenre(@android.support.annotation.Nullable String genre) {
+    public void setGenre(String genre) {
         this.genre = genre;
     }
 
-    @android.support.annotation.Nullable
     public String getDirector() {
         return director;
     }
 
-    public void setDirector(@android.support.annotation.Nullable String director) {
+    public void setDirector(String director) {
         this.director = director;
     }
 
-    @android.support.annotation.Nullable
     public String getWriter() {
         return writer;
     }
 
-    public void setWriter(@android.support.annotation.Nullable String writer) {
+    public void setWriter(String writer) {
         this.writer = writer;
     }
 
-    @android.support.annotation.Nullable
     public String getActors() {
         return actors;
     }
 
-    public void setActors(@android.support.annotation.Nullable String actors) {
+    public void setActors(String actors) {
         this.actors = actors;
     }
 
-    @android.support.annotation.Nullable
     public String getPlot() {
         return plot;
     }
 
-    public void setPlot(@android.support.annotation.Nullable String plot) {
+    public void setPlot(String plot) {
         this.plot = plot;
     }
 
-    @android.support.annotation.Nullable
     public String getLanguage() {
         return language;
     }
 
-    public void setLanguage(@android.support.annotation.Nullable String language) {
+    public void setLanguage(String language) {
         this.language = language;
     }
 
-    @android.support.annotation.Nullable
     public String getCountry() {
         return country;
     }
 
-    public void setCountry(@android.support.annotation.Nullable String country) {
+    public void setCountry(String country) {
         this.country = country;
     }
 
-    @android.support.annotation.Nullable
     public String getAwards() {
         return awards;
     }
 
-    public void setAwards(@android.support.annotation.Nullable String awards) {
+    public void setAwards(String awards) {
         this.awards = awards;
     }
 
-    @android.support.annotation.Nullable
     public String getPoster() {
         return poster;
     }
 
 
-    public void setPoster(@android.support.annotation.Nullable String poster) {
+    public void setPoster(String poster) {
         this.poster = poster;
     }
 
-    @android.support.annotation.Nullable
     public List<RatingModel> getRatingModels() {
         return ratingModels;
     }
 
-    public void setRatingModels(@android.support.annotation.Nullable List<RatingModel> ratingModels) {
+    public void setRatingModels( List<RatingModel> ratingModels) {
         this.ratingModels = ratingModels;
     }
 
-    @android.support.annotation.Nullable
     public String getMetascore() {
         return metascore;
     }
 
-    public void setMetascore(@android.support.annotation.Nullable String metascore) {
+    public void setMetascore( String metascore) {
         this.metascore = metascore;
     }
 
-    @android.support.annotation.Nullable
     public String getImdbRating() {
         return imdbRating;
     }
 
-    public void setImdbRating(@android.support.annotation.Nullable String imdbRating) {
+    public void setImdbRating( String imdbRating) {
         this.imdbRating = imdbRating;
     }
 
-    @android.support.annotation.Nullable
     public String getImdbVotes() {
         return imdbVotes;
     }
 
-    public void setImdbVotes(@android.support.annotation.Nullable String imdbVotes) {
+    public void setImdbVotes( String imdbVotes) {
         this.imdbVotes = imdbVotes;
     }
 
-    @android.support.annotation.Nullable
     public String getImdbID() {
         return imdbID;
     }
 
-    public void setImdbID(@android.support.annotation.Nullable String imdbID) {
+    public void setImdbID( String imdbID) {
         this.imdbID = imdbID;
     }
 
-    @android.support.annotation.Nullable
     public String getType() {
         return type;
     }
 
-    public void setType(@android.support.annotation.Nullable String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
-    @android.support.annotation.Nullable
     public String getDvd() {
         return dvd;
     }
 
-    public void setDvd(@android.support.annotation.Nullable String dvd) {
+    public void setDvd(String dvd) {
         this.dvd = dvd;
     }
 
-    @android.support.annotation.Nullable
     public String getBoxOffice() {
         return boxOffice;
     }
 
-    public void setBoxOffice(@android.support.annotation.Nullable String boxOffice) {
+    public void setBoxOffice(String boxOffice) {
         this.boxOffice = boxOffice;
     }
 
-    @android.support.annotation.Nullable
     public String getWebsite() {
         return website;
     }
 
-    public void setWebsite(@android.support.annotation.Nullable String website) {
+    public void setWebsite(String website) {
         this.website = website;
     }
 
-    @android.support.annotation.Nullable
     public String getProduction() {
         return production;
     }
 
-    public void setProduction(@android.support.annotation.Nullable String production) {
+    public void setProduction(String production) {
         this.production = production;
     }
 
-    @android.support.annotation.Nullable
     public String getResponse() {
         return Response;
     }
 
-    public void setResponse(@android.support.annotation.Nullable String response) {
+    public void setResponse(String response) {
         Response = response;
     }
 }
