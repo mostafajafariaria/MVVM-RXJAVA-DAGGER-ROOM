@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cvBgFilmRows"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    app:cardBackgroundColor="@color/colorBlackAlpha"
+    android:layout_marginBottom="4dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/sdFilmPoster"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/margin_8dp"
+            app:placeholderImage="@drawable/ic_launcher_background"
+            app:roundedCornerRadius="4dp"
+            app:roundingBorderColor="@color/colorPrimaryDark"
+            app:roundingBorderWidth="2dp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtFilmName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_toRightOf="@+id/sdFilmPoster"
+            android:maxLines="3"
+            android:text="Film Name"
+            android:textColor="@color/onPrimary"
+            android:textSize="16sp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtFilmTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtFilmName"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/colorGold"
+            android:layout_marginRight="@dimen/margin_8dp"
+            android:layout_toRightOf="@+id/sdFilmPoster"
+            android:gravity="left"
+            android:maxLines="3"
+            android:text="Batman v Superman: Dawn of Justice"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

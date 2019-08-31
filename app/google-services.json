@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "878007960",
+    "firebase_url": "https://my-club-224311.firebaseio.com",
+    "project_id": "my-club-224311",
+    "storage_bucket": "my-club-224311.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878007960:android:65db9b1672e09908",
+        "android_client_info": {
+          "package_name": "ir.Geotech_co.myclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878007960-amiij15pppea3fnt2bij0r8mba05ecvh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ir.Geotech_co.myclub",
+            "certificate_hash": "cf061ff511a73a6849daef93fd4b5446ad3cadcb"
+          }
+        },
+        {
+          "client_id": "878007960-eq48ibunsqd1d5gdt0fkcl3bi4oelsnf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByQfWZ6VjuVv8x-Ivt7QJvPXP5MsXZsb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878007960-eq48ibunsqd1d5gdt0fkcl3bi4oelsnf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

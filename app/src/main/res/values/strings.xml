@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Batman</string>
+    <string name="please_wait">please wait…</string>
+
+    <string name="time_out_error">time out exception</string>
+    <string name="connection_error">connection exception</string>
+    <string name="single_no_item_emitted_error">emitted exception</string>
+    <string name="data_receive_error">data received exception</string>
+    <string name="server_error">server exception</string>
+
+</resources>

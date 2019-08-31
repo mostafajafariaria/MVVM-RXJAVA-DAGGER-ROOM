@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#24272B</color>
+    <color name="colorPrimaryDark">#25252C</color>
+    <color name="colorAccent">#fdfdfe</color>
+
+
+    <color name="onBackground">#eb000000</color>
+    <color name="onPrimary">#fdfdfe</color>
+    <color name="colorBlackAlpha">#b0000000</color>
+    <color name="colorGold">#FFC107</color>
+    <color name="colorGoldAccent">#FF9800</color>
+
+</resources>

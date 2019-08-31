@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clSingleFilm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".activities.singleFilm.SingleFilmActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbarSingleFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapseSingleFilm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:titleEnabled="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_collapseMode="parallax">
+
+                <com.facebook.drawee.view.SimpleDraweeView
+                    android:id="@+id/sdSingleFilm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:failureImage="@drawable/batman_placeholder"
+                    app:failureImageScaleType="fitXY"
+                    app:placeholderImage="@drawable/batman_placeholder"
+                    app:placeholderImageScaleType="fitXY"
+                    app:viewAspectRatio="1" />
+
+                <android.support.v7.widget.AppCompatImageView
+                    android:id="@+id/bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/bg_single_film" />
+
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/txtSingleFilmTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="48dp"
+                    android:paddingBottom="8dp"
+                    android:paddingLeft="16dp"
+                    android:textColor="@color/colorGold"
+                    android:paddingRight="16dp"
+                    android:text="Film Title"
+                    android:textSize="32sp"
+                    tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry" />
+
+            </RelativeLayout>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpSingleFilmLocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+</android.support.design.widget.CoordinatorLayout>

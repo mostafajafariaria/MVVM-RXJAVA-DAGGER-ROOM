@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imgBackProgressbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha=".1"
+        android:background="@color/colorBlackAlpha" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_custom_progressbar"
+        android:paddingLeft="@dimen/margin_8dp"
+        android:paddingRight="@dimen/margin_8dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/txtPb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/please_wait"
+            android:textColor="@color/onPrimary"
+            android:textSize="16sp"
+            />
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/pbCustom"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="center_vertical"
+            app:indicatorColor="@color/onPrimary"
+            app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
