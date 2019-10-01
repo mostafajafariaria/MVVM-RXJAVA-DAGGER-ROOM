@@ -31,7 +31,10 @@
             <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="ir.Geotech_co.batman.activities.singleFilm.SingleFilmActivity" />
+        <activity
+            android:name="ir.Geotech_co.batman.activities.singleFilm.SingleFilmActivity"
+            android:screenOrientation="portrait"
+            />
 
 
     </application>

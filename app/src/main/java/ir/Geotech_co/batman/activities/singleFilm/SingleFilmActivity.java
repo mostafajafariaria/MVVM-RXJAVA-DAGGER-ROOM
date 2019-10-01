@@ -30,7 +30,7 @@ public final class SingleFilmActivity extends BaseDaggerCompatActivity {
     AppCompatImageView bg;
     @BindView(R.id.txtSingleFilmTitle)
     AppCompatTextView txtSingleFilmTitle;
-//    @BindView(R.id.toolbar)
+    //    @BindView(R.id.toolbar)
 //    Toolbar toolbar;
     @BindView(R.id.collapseSingleFilm)
     CollapsingToolbarLayout collapseSingleFilm;
@@ -53,8 +53,7 @@ public final class SingleFilmActivity extends BaseDaggerCompatActivity {
         setContentView(R.layout.activity_single_film);
         unbinder = ButterKnife.bind(this);
 
-        if (savedInstanceState == null)
-            viewModel = viewModelProvider.get();
+        viewModel = viewModelProvider.get();
 
         initializeViewPager();
 
