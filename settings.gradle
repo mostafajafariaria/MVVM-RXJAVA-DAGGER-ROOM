@@ -1,1 +1,1 @@
-include ':app', ':MaterialDatePicker'
+include ':app'
